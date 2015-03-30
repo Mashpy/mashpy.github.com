@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="Currency%20Converter%20-%20jQuery%20Plugin_files/jquery.js"></script>
+
+<link type="text/css" rel="stylesheet" href="Currency%20Converter%20-%20jQuery%20Plugin_files/o.css">
+<script type="text/javascript" src="Currency%20Converter%20-%20jQuery%20Plugin_files/o.js"></script>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+
+<title>Currency Converter - jQuery Plugin</title>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#currency-widget').currency({
+        // Set currencies quantity
+        quantity: 20,
+        // Currency exchange from
+        from: 'CAD',
+        // Currency exchange to
+        to: 'USD',
+        // The number of digits after the decimal point
+        decimals: 2,
+        // Disable loading image
+        loadingImage: false,
+    });
+});
+
+
+
+</script>
+
+<style type="text/css">
+#currency-widget {
+    width:223px;
+}
+</style>
+</head>
+<body>
+<div id="currency-widget"></div>
+
+ </head>
+ <body>
+
+
+

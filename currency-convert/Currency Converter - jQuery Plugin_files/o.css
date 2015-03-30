@@ -1,0 +1,11 @@
+.currency-footer{
+  display:none
+  }
+
+.currency-header{
+	display:none
+}
+.currency-form input , .currency-form span ,  .currency-from{
+	display:none
+}
+.currency-equals, .currency-result-from, .currency-result-compare2{display:none}
